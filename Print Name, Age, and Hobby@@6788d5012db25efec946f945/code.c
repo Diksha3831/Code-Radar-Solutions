@@ -4,8 +4,8 @@ int main() {
     char S[100];
     int N;
     scanf("%s",&A);
-    scanf("%[^\n]",&S);
     scanf("%d",&N);
+    scanf("%[^\n]",&S)
     printf("Name: %s\n",A);
     printf("Age: %d\n",N);
     printf("Hobby: %s\n",S);

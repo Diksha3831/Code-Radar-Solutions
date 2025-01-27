@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
-    char A[100],S[100];
+    char A[100];
+    char S[100];
     int N;
     scanf("%s",&A);
     scanf("%[^\n]",&S);

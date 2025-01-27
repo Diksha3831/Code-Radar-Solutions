@@ -4,7 +4,7 @@ int main() {
     int N;
     scanf("%s",&A);
     scanf("%s",&S);
-    scanf("%d",&N);
+    scanf("%[^\n]",&N);
     printf("Name: %s\nAge: %d\nHobby: %s",A,N,S);
     return 0;
 }

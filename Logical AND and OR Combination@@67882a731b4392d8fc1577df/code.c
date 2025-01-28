@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int a,b,c;
-    scanf(%d %d %d,&a,&b,&c);
+    scanf(%d %d,&a,&b);
     if((a>0 && b<0)||(a==0 && b==0)){
         printf("True");
     }

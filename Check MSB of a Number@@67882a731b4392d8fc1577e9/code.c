@@ -5,6 +5,6 @@ int main() {
     if(a<0)
         printf("Set");
     else
-        printf("Not set")
+        printf("Not set");
     return 0;
 }

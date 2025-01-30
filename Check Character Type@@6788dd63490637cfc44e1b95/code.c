@@ -16,10 +16,10 @@ int main(){
         }
     }
     else if{
-        printf("Special Character");
+        printf("Digit");
     }
     else{
-        printf("Digit");
+        printf("Special character");
     }
     return 0;
 }

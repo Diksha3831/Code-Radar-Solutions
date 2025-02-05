@@ -15,12 +15,12 @@ int main(){
         d=a*b;
         printf("%d",d);
     }
-    else if(c=='/'){
-        d=a/b;
-        printf("%d",d);
-    }
-    else{
-        printf("Error");
-    }
+    else if (c == '/') {
+        if (b != 0)
+            printf("%d\n", a / b);
+        else
+            printf("error\n");  
+    } else {
+        printf("error\n"); 
     return 0;
 }

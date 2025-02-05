@@ -3,23 +3,17 @@
 int main(){
     char d;
     scanf("%c",&d);
-    if((d>='a' && d<='z'))
-    {
-        a=tolower(a);
-        if(d=='a'|| d=='i'||d =='e'||d =='o'||d ='u')
-        {
-            printf("Vowel");
-        }
-        else
-        {
-            printf("Consonant");
-        }
+    if((a=='a')||(a=='e')||(a=='i')||(a=='o')||(a=='u')||(a=='A')||(a=='E')||(a=='I')||(a=='O')||(a=='U')){
+        printf("Vowel");
     }
-    else if(isdigit(a)){
+    else if(a>='0'&& a<='9'){
         printf("Digit");
     }
+    else if((a>='a'&& a<='z')||(a>='A'&& a<='z')){
+        printf("Consonant");
+    }
     else{
-        printf("Special character");
+        printf("Special Character");
     }
     return 0;
 }
